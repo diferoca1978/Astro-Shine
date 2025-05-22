@@ -3,17 +3,43 @@
 	"compilerOptions": {
 		"strictNullChecks": true,
 		"baseUrl": "src",
+		"typeRoots": [
+			"./node_modules/@types"
+		],
+		"types": [
+			"node"
+		],
 		"paths": {
-			"@/*": ["*"],
-			"@lib/*": ["lib/*"],
-			"@components/*": ["components/*"],
-			"@layouts/*": ["layouts/*"],
-			"@styles/*": ["styles/*"],
-			"@utils/*": ["utils/*"],
-			"@pages/*": ["pages/*"],
-			"@assets/*": ["assets/*"],
-			"@locales/*": ["locales/*"],
-			"@i18n/*": ["i18n/*"],
+			"@/*": [
+				"*"
+			],
+			"@lib/*": [
+				"lib/*"
+			],
+			"@components/*": [
+				"components/*"
+			],
+			"@layouts/*": [
+				"layouts/*"
+			],
+			"@styles/*": [
+				"styles/*"
+			],
+			"@utils/*": [
+				"utils/*"
+			],
+			"@pages/*": [
+				"pages/*"
+			],
+			"@assets/*": [
+				"assets/*"
+			],
+			"@locales/*": [
+				"locales/*"
+			],
+			"@i18n/*": [
+				"i18n/*"
+			],
 		},
 	},
 }
